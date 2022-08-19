@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(251, 248, 233);
+}
+
+.calculator {
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 3px rgb(63, 63, 63) solid;
+    width: 270px;
+    background-color: rgb(162, 162, 162);
+    border-radius: 10px;
+    overflow-wrap: break-word;
+    box-shadow: 0.5px 0.5px 0.5px black;
+}
+
+.calculator #result {
+    font-size: 35px;
+    text-align: left;
+    margin: 5px;
+    padding: 20px;
+    width: 220px;
+    background: aliceblue;
+    font-family: monospace;
+    border-radius: 7px;
+    box-shadow: 0.5px 0.5px 0.5px 2px black;
+    transition: 0.5s;
+}
+
+.calculator button {
+    border: none;
+    border-radius: 5px;
+    margin: 3px;
+    width: 52px;
+    height: 52px;
+    background: lightblue;
+    font-family: monospace;
+    font-size: 22px;
+    font-weight: bold;
+    transition: 0.1s;
+    box-shadow: 0.5px 0.5px 0.5px 2px black
+}
+
+.calculator button:hover {
+    background: rgb(189, 220, 241);
+    cursor: pointer;
+}
+
+.calculator button:active {
+    background: rgb(176, 238, 176);
+}
+
+.calculator #equal {
+    background: rgb(170, 250, 250);
+}
+
+.calculator #equal:hover {
+    background: rgb(208, 253, 253);
+}
+
+.calculator #equal:active {
+    background: rgb(176, 238, 176)
+}
+
+.calculator #cancel {
+    border-radius: 5px;
+    width: 115px;
+    height: 30px;
+    background: rgb(235, 178, 178);
+}
+
+.calculator #cancel:hover {
+    background: rgb(251, 161, 161);
+}
+
+.calculator #cancel:active {
+    background:rgb(251, 90, 90)
+}
+
+.calculator #history {
+    border-radius: 5px;
+    font-size: 18px;
+    width: 115px;
+    height: 30px;
+    background: rgb(235, 212, 178);
+}
+
+.calculator #history:hover {
+    background: rgb(251, 215, 161);
+}
+
+.calculator #history:active {
+    background:rgb(251, 187, 90)
+}
+
+#history-block {
+    font-size: 20px;
+    font-family: monospace;
+    text-shadow: 0.5px 0.5px 0.5px black;
+    font-weight: 100;
+    margin-top: 10px;
+    background: rgb(121, 177, 200);
+    text-align: center;
+    width: 270px;
+    border-radius: 5px;
+    line-height: 17px;
+}
+
+button.history-tag {
+    display: flex;
+    width: 0;
+    height: 0;
+    box-shadow: none;
+    font-size: 12px;
+}

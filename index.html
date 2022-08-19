@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <p id="result">0</p>
+        <button id="history" onclick="history()">History</button>
+        <button id="cancel" onclick="cancel()">←</button>
+        <button onclick="add()">+</button>
+        <button onclick="subtract()">-</button>
+        <button onclick="multiply()">×</button>
+        <button onclick="divide()">÷</button>
+        <button onclick="number7()">7</button>
+        <button onclick="number8()">8</button>
+        <button onclick="number9()">9</button>
+        <button onclick="sqr()">x²</button>
+        <button onclick="number4()">4</button>
+        <button onclick="number5()">5</button>
+        <button onclick="number6()">6</button>
+        <button onclick="sqrt()">√x</button>
+        <button onclick="number1()">1</button>
+        <button onclick="number2()">2</button>
+        <button onclick="number3()">3</button>
+        <button onclick="fraction()">1/x</button>
+        <button onclick="comma()">.</button>
+        <button onclick="number0()">0</button>
+        <button onclick="leftHook()">(</button>
+        <button onclick="rightHook()">)</button>
+        <button onclick="exponent()">x^n</button>
+        <button onclick="pi()">π</button>
+        <button onclick="clearing()">C</button>
+        <button id="equal" onclick="equal()">=</button> 
+        <div id="history-block"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
