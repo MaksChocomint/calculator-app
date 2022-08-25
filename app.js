@@ -1,4 +1,4 @@
-let result = document.getElementById("result")
+const result = document.getElementById("result")
 const historyList = new Array()
 // numbers 
 function number1() {
